@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+    max-width: 144rem;
+    margin: 0 auto;
+    font-family: "Barlow", sans-serif;
+}
+
+/* Utility */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}  
+
+img {
+    max-width: auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+figure img {
+   display: block;
+}
+
+h1, h2 {
+    font-family: "Fraunces", serif;
+}
+
+/* Header */
+header {
+    background-image: url(./images/desktop/image-header.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80rem;
+}
+
+/* Menu */
+.menu {
+    padding-top: 4.6rem;   
+    padding-left: 4rem;    
+    padding-right: 12rem;
+    align-items: center;
+}
+
+.logo img {
+    width: 17rem;
+}
+
+ul li a {
+    color: hsl(0, 0%, 100%);
+}
+
+ul.navbar li {
+    margin-left: 5rem;
+    color: red;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hero text */
+.hero {
+   text-align: center;
+   margin: 10rem 0;
+}
+
+.hero h1 {
+    font-size: 5.5rem;
+    font-weight: 900;
+    letter-spacing: 1.2rem;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%);
+    padding-top: 1rem;
+}
+
+.hero-arrow {
+    width: 4rem;
+    height: 11.1rem;
+    margin-top: 10rem;
+}
+
+
+/* Main */
+.transform, .stand {
+    display: flex;
+    flex-direction: column;
+    background-color: #fffbf8;
+}
+
+
+.transform {
+    padding-top: 16rem;
+    padding-right: 10rem;
+    padding-left: 16.7rem;
+}
+
+.transform h1, .stand h1 {
+    color: #273244;
+    font-size: 4.1rem;
+    font-weight: 900;
+}
+
+.transform p, .stand p {
+    margin-top: 2.8rem;
+    margin-bottom: 4rem;
+    line-height: 3rem;
+    color: #7d7b86;
+}
+/* Button */
+
+.learn-more {
+    font-family: "Fraunces", serif;
+    color: #1f2935;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-left: 4px;
+}
+
+.stand {
+    padding-top: 15.8rem;
+    padding-left: 11rem;
+    padding-right: 16rem;
+}
+
+.graphic, .Photography {
+    position: relative;
+}
+
+.graphic-text, .Photography-text {
+    position: absolute;
+    bottom: 4.6rem;
+    padding: 3rem 20rem;
+    text-align: center;
+}
+
+
+figcaption h2 {
+    font-size: 2.9rem;
+    margin-top: 30px;
+} 
+
+
+
+/* Client testimonials  */
+.client-section {
+    background-color: #fffbf8;
+    text-align: center;
+    padding: 0 17rem;
+    max-height: 77.8rem;
+}
+
+.client-section h2 {
+    text-transform: uppercase;
+    color: #b3b3b5;
+    letter-spacing: 5px;
+    font-size: 2.1rem;
+    padding-top: 15.9rem;
+    padding-bottom: 8.5rem;
+}
+
+.client {
+    display: flex;
+    gap: 4rem;
+    min-height: 78rem;
+}
+
+.client img {
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    margin-bottom: 5.5rem;
+}
+
+.t-text {
+    color: #6c6d6f;
+    line-height: 3rem;
+    margin-bottom: 7.2rem;
+}
+
+.author {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+
+.designation {
+    color: #aaa9a7;
+}
+
+/* gallery */
+.gallery img {
+    width: 100%;
+    max-width: 360px;
+}
+
+footer  {
+    background-color: hsl(168, 34%, 41%);
+    text-align: center;
+    min-height: 340px;
+}
+
+.footer-logo {
+    filter: invert(45%) sepia(22%) saturate(790%) hue-rotate(118deg) brightness(95%) contrast(92%);
+    height: 3.3rem;
+    margin-top: 7rem;
+}
+
+.footer-nav, .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-nav {
+    margin-top: 4rem;
+    gap: 5.9rem;
+}
+
+.social-media {
+    margin-top: 9rem;
+    gap: 3rem;
+}
+
+
+/* Media Query */
+@media only screen and (max-width: 375px) {
+   
+}
